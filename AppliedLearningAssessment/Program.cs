@@ -10,6 +10,22 @@ namespace AppliedLearningAssessment
     {
         static void Main(string[] args)
         {
+            // Problem 1
+            Console.WriteLine("Enter an integer:");
+            int number = int.Parse(Console.ReadLine());
+
+            if (number < 10)
+            {
+                Console.WriteLine("This number is too small");
+            }
+            else if (number >= 10)
+            {
+                Console.WriteLine("This number is big enough");
+            }
+
+            // Problem 2
+            double[] floatingPointNumbers = { 1.01, 2.22, 3.34, 4.56, 6.76 };
+            Console.WriteLine(floatingPointNumbers[1]);
         }
     }
 }
