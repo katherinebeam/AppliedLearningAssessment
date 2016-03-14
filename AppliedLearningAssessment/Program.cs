@@ -33,6 +33,7 @@ namespace AppliedLearningAssessment
                 Console.Write(num + " ");
             }
             Console.WriteLine();
+
             // Question 4
             Console.WriteLine("Enter a number (1 or 100):");
             int switchCaseNum = int.Parse(Console.ReadLine());
