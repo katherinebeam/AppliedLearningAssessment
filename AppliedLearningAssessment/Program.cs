@@ -10,7 +10,7 @@ namespace AppliedLearningAssessment
     {
         static void Main(string[] args)
         {
-            // Problem 1
+            // Question 1
             Console.WriteLine("Enter an integer:");
             int number = int.Parse(Console.ReadLine());
 
@@ -23,9 +23,15 @@ namespace AppliedLearningAssessment
                 Console.WriteLine("This number is big enough");
             }
 
-            // Problem 2
+            // Question 2
             double[] floatingPointNumbers = { 1.01, 2.22, 3.34, 4.56, 6.76 };
             Console.WriteLine(floatingPointNumbers[1]);
+
+            //Question 3
+            foreach(double num in floatingPointNumbers)
+            {
+                Console.Write(num + " ");
+            }
         }
     }
 }
